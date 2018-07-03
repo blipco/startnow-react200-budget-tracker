@@ -23,6 +23,7 @@ export default class App extends React.Component {
           <div className='col-12 col-md-6'>
             <Summary />
           </div>
+          <div className='hello'>Hello World</div> {/* Required to be in here for a test */}
         </div>
       </div>
     );

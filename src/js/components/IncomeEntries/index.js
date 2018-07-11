@@ -5,7 +5,7 @@ function mapStoreToProps(store) {
   return {
     description: store.income.description,
     amount: store.income.amount,
-    lineItems: store.income.LineItems
+    lineItems: store.income.lineItems
   };
 };
 export default connect(mapStoreToProps)(IncomeEntries);
